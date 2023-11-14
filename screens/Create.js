@@ -85,7 +85,7 @@ const Create = ({ ip }) => {
             <Text style={styles.title}>Agregar jugador</Text>
             <TextInput
               style={styles.input}
-              placeholder="name"
+              placeholder="Nombre"
               value={name}
               onChangeText={(text) => setName(text)}
             />
@@ -97,27 +97,27 @@ const Create = ({ ip }) => {
             />
             <TextInput
               style={styles.input}
-              placeholder="years"
+              placeholder="Edad"
               value={years}
               onChangeText={(text) => setYears(text)}
               keyboardType="numeric"
             />
             <TextInput
               style={styles.input}
-              placeholder="height"
+              placeholder="Altura"
               value={height}
               onChangeText={(text) => setHeight(text)}
             />
             <TextInput
               style={styles.input}
-              placeholder="weight"
+              placeholder="Peso"
               value={weight}
               onChangeText={(text) => setWeight(text)}
               keyboardType="numeric"
             />
             <TextInput
               style={styles.input}
-              placeholder="nationality"
+              placeholder="Nacionalidad"
               value={nationality}
               onChangeText={(text) => setNationality(text)}
             />
@@ -151,7 +151,7 @@ const Create = ({ ip }) => {
             />
             <TextInput
               style={styles.input}
-              placeholder="assistsstencias"
+              placeholder="Asistencias"
               value={assists}
               onChangeText={(text) => setAssists(text)}
               keyboardType="numeric"

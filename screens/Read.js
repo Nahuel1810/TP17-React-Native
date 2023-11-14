@@ -86,8 +86,8 @@ const Read = ({ ip }) => {
         <View style={styles.card}>
           <Text style={styles.cardTitle}>Opciones:</Text>
           <Button title="Mostrar todo" onPress={showAllPlayers} color={'#00C852'} />
-          <Button title="players Argentinos" onPress={showArgentinianPlayers} color={'#00C852'} />
-          <Button title="players entre 75 y 80 kg" onPress={showWeightFilterPlayers} color={'#00C852'} />
+          <Button title="Jugadores Argentinos" onPress={showArgentinianPlayers} color={'#00C852'} />
+          <Button title="Jugadores entre 75 y 80 kg" onPress={showWeightFilterPlayers} color={'#00C852'} />
           <Button title="Jugador más alto" onPress={showTallestPlayer} color={'#00C852'} />
         </View>
       </View>
